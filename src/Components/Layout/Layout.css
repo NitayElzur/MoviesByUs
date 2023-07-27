@@ -1,0 +1,33 @@
+#layout-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    #header {
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #img {
+            height: 100%;
+            object-fit: contain;
+            margin-left: 40px;
+        }
+
+        #header-links {
+            width: 60%;
+            text-align: center;
+        }
+    }
+
+    #main-content {
+        display: flex;
+        height: 100%;
+
+        #outlet-container {
+            flex-grow: 1;
+        }
+    }
+}
