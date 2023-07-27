@@ -1,0 +1,9 @@
+#genrebar-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .genrebar-item {
+        width: 50%;
+        text-align: center;
+    }
+}
